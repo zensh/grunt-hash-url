@@ -1,0 +1,35 @@
+{
+  "name": "grunt-hash-url",
+  "description": "Hash urls in files(html, css...) with md5 or other algorithm",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zensh/grunt-hash-url",
+  "author": {
+    "name": "Yan Qing",
+    "url": "https://github.com/zensh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zensh/grunt-hash-url.git"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": ">=0.2.0",
+    "grunt-contrib-nodeunit": ">=0.1.2",
+    "grunt-contrib-clean": ">=0.4.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt": ">=0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readmeFilename": "README.md"
+}
